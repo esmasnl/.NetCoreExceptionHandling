@@ -27,7 +27,7 @@ namespace BusinessLogicLayer.Helpers
             //
             SmtpClient smtp = new SmtpClient();
             //
-            smtp.Credentials = new System.Net.NetworkCredential("esmaasnli1@gmail.com", "dzodglbsrbypsfrx");
+            smtp.Credentials = new System.Net.NetworkCredential("esmaasnli1@gmail.com", "sifre");
             smtp.Port = 587;
             smtp.Host = "smtp.gmail.com";
             smtp.EnableSsl = true;
